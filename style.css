@@ -10,11 +10,12 @@
 *::before,
 *::after {
   margin: 0;
-  paddind: 0;
+  padding: 0;
   box-sizing: border-box;
+
 }
 
-body {
+body {  position: relative;
   background: var(--bg);
   width: 100vw;
   min-height: 100vh;
@@ -22,20 +23,19 @@ body {
   justify-content: center;
   align-items: center;  
   flex-direction: column;  
-  position: relative;
 }
 
-.barcode {
-  width: 21.27rem;
-  height: 31rem;
+.barcode {  
+  width: 20rem;
+  height: 30rem;
   background-color: white;
   border-radius: 15px;
 }
 
-img {
-  width: 21.27rem;
+img {  
+  width: 20rem;
   border-radius: 11%;
-  padding: 1.1em;
+  padding: 1.5em;
 }
 
 h2,
@@ -47,28 +47,27 @@ p {
 
 h2 {
   font-size: 20px;
-  padding-inline: 3.5rem;
+  padding-inline: 2.9rem;
 }
 
 p {  
   padding-top: .6rem;
-  font-size: 16px;
+  font-size: 15.5px;
   color: var(--text);
   padding-inline: 2.1rem;
 }
 
-.attribution {
+.attribution {  
+  color: var(--text);
   font-family: 'Outfit', sans-serif;
   font-size: 11px; 
   text-align: center; 
-  padding-bottom: 1rem;
-}
-
-.attribution {
+  margin-bottom: .6rem;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
 }
 
 .attribution a {
@@ -77,6 +76,6 @@ p {
 
 @media (max-width: 375px) {
   .barcode {
-    height: 31rem;
+    height: 30rem;
   }
 }
