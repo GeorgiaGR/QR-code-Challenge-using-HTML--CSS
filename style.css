@@ -10,7 +10,8 @@
 *::before,
 *::after {
   margin: 0;
-  padding: 0;
+  paddind: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,16 +24,16 @@ body {
 }
 
 .barcode {
-  width: 14.5rem;
-  height: 23rem;
+  width: 14.5em;
+  height: 23em;
   background-color: white;
   border-radius: 15px;
 }
 
 img {
-  width: 205px;
+  width: 14.5em;
   border-radius: 11%;
-  padding: 13px;
+  padding: 1em;
 }
 
 h2,
@@ -50,8 +51,19 @@ p {
     color: var(--text);
 }
 
+.attribution {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px; 
+  text-align: center; 
+  margin-top: .5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 375px) {
   .barcode {
-    height: 24rem;
+    height: 24em;
   }
 }
