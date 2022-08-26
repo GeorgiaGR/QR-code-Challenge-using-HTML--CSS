@@ -15,7 +15,8 @@
 
 }
 
-body {  position: relative;
+body {  
+  position: relative;
   background: var(--bg);
   width: 100vw;
   min-height: 100vh;
