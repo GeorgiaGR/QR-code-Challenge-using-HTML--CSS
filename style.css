@@ -53,13 +53,7 @@ p {
 
 .attribution {
   font-family: 'Outfit', sans-serif;
-  font-size: 11px; 
-  text-align: center; 
   margin-top: .5rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
